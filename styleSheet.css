@@ -125,3 +125,13 @@ footer #linkedIn{
     border-color: black;
 
 }
+
+ul.noBullets {
+  list-style-type: none;
+
+
+}
+
+#aboutMe p{
+  padding: .4%;
+}
