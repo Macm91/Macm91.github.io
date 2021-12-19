@@ -69,8 +69,14 @@ header {
 p a:link{
   color: rgb(50, 17, 82);
   text-decoration: none;
+}
+
+p a:link{
+  color: rgb(50, 17, 82);
+  text-decoration: none;
 
 }
+
 /* Sections */
 section{
     /* background-clip: content-box; */
