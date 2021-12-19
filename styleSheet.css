@@ -47,22 +47,30 @@ header {
 
 #navigation a:link {
     color: rgb(250, 243, 243);
+    text-decoration: none;
   }
 
 #navigation a:visited {
     color: rgb(232, 233, 229);
+    text-decoration: none;
   }
   
   #navigation a:hover {
     color: rgb(241, 248, 240);
+    text-decoration: none;
   }
   
 #navigation a:active {
     color: rgb(231, 231, 241);
+    text-decoration: none;
   }
 
 
+p a:link{
+  color: rgb(50, 17, 82);
+  text-decoration: none;
 
+}
 /* Sections */
 section{
     /* background-clip: content-box; */
