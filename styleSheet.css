@@ -1,8 +1,8 @@
 body{
     background-color:transparent;
     background-image: url(background.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
 }
 
 #title{
@@ -15,6 +15,9 @@ body{
   font-size: large;
 }
 
+#rightIntro{
+  margin-top: 10%;
+}
 
 
 .navMenu {
@@ -74,12 +77,11 @@ p{
 .dropdown:hover .dropbtn {
   background-color: #101110;
 }
+
 #pic_1{
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 70%;
-    border-color: whitesmoke;
-    float:left
+    border-style: none;
+    border-radius: 5%;
+    float:right;
   }
 
 
