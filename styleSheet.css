@@ -155,17 +155,18 @@ text-decoration: none;
 .flex-wrapper {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
 }
 
 .single-chart {
-  width: 33%;
+  width: 20%;
   justify-content: space-around ;
 }
 
 .circular-chart {
   display: block;
   margin: 10px auto;
-  max-width: 80%;
+  max-width: 55%;
   max-height: 250px;
 }
 
@@ -188,8 +189,8 @@ text-decoration: none;
   }
 }
 
-.circular-chart.orange .circle {
-  stroke: #ff9f00;
+.circular-chart.purple .circle {
+  stroke: #c124f1e5;
 }
 
 .circular-chart.green .circle {
@@ -197,33 +198,18 @@ text-decoration: none;
 }
 
 .circular-chart.blue .circle {
-  stroke: #3c9ee5;
+  stroke: #46abf3;
 }
 
 .percentage {
-  fill: #666;
+  fill: rgb(7, 7, 7);
   font-size: 25%;
+  font-weight: bold;
+  font-family:sans-serif;
   text-anchor: middle;
-  
 }
 
-.percentage2 {
-  fill: #666;
-  font-size: 25%;
-}
 
-/* .skills{
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-  border: black solid;
-} */
-
-/* #js{
-  width:80%;
-  background-color: rgb(62, 167, 123);
-} */
 
 
 
