@@ -18,6 +18,20 @@ body{
   font-size: large;
 }
 
+@media only screen and (max-width: 996px) {
+  #phoneNumber {
+      display: none;
+  }
+  #email{
+    display: none;
+  }
+  #career{
+    display: none;
+  }
+}
+
+
+
 #rightIntro{
   margin-top: 10%;
 }
