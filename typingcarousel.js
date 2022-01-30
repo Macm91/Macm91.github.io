@@ -55,3 +55,10 @@ var TxtRotate = function(el, toRotate, period) {
     document.body.appendChild(css);
   };
 
+
+
+
+  
+
+
+  

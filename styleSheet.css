@@ -30,7 +30,145 @@ body{
   }
 }
 
+@media (min-width: 997px) {
+  #barCareer{
+    display: none;
+  }
+}
 
+
+#barCareer{
+  text-align: left;
+  
+}
+
+.skill {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  overflow: auto;
+}
+
+.skillname {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  padding-top: 20px;
+  color: #050505;
+}
+
+.skill-bar{
+  width: 100%;
+  background-color: #ebebeb;
+  height: 4px;
+  position: relative;
+}
+
+.html{
+  width: 90%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index:auto;
+}
+
+.css{
+  width: 75%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.bootstrap{
+  width: 75%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.python{
+  width: 65%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.Django{
+  width: 75%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.C{
+  width: 75%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.Javascript{
+  width: 90%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.ReactJS{
+  width: 90%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.redux{
+  width: 60%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.ASP{
+  width: 75%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.Sql{
+  width: 80%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.MySQL{
+  width: 80%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
+
+.Postman{
+  width: 95%;
+  height: 4px;
+  background-color: rgb(10, 161, 10);
+  position: relative;
+  z-index: 10;
+}
 
 #rightIntro{
   margin-top: 10%;
