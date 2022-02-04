@@ -21,16 +21,7 @@ body{
   position: relative;
 }
 
-.tilesview{
-  min-height: 100vh;
-  width: 100%;
-  /* background: rgb(106, 183, 246);
-  background: linear-gradient(111deg, rgba(246,210,106,1) 0%, rgb(106, 183, 246) 52%, rgba(251,197,100,1) 100%); */
-  display: none;
-  justify-content: center;
-  align-items: center;
-  
-}
+
 
 #galleryView {
   height: 100vh;
@@ -179,6 +170,9 @@ body{
   .experience ul{
     display: none;
   }
+  #galleryView{
+    display: none;
+  }
 }
 
 @media (min-width: 997px) {
@@ -186,6 +180,9 @@ body{
     display: none;
     height: 50%;
     width: 100%;
+  }
+  #tilesView{
+    display: none;
   }
 }
 
