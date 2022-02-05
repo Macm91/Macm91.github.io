@@ -50,7 +50,7 @@ let prevImg = imgObject.length - 1;
 let nextImg = 1;
 
 function loadGallery() {
--i9=]k/o ]i]0i/]0oi]0]ji
+
   let mainView = document.getElementById("mainView");
   mainView.style.background = "url(" + imgObject[mainImg] + ")";
 
@@ -94,9 +94,9 @@ document.getElementById("navLeft").addEventListener("click", scrollLeft);
 document.getElementById("rightView").addEventListener("click", scrollRight);
 document.getElementById("leftView").addEventListener("click", scrollLeft);
 document.addEventListener('keyup',function(e){
-    if (e.keyCode === 37) {
+    if (e.key === 37) {
     scrollLeft();
-  } else if(e.keyCode === 39) {
+  } else if(e.key === 39) {
     scrollRight();
   }
 });
