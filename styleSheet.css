@@ -500,10 +500,7 @@ h1 {
   border-radius: 50%;
 }
 
-video :hover{
-  width: 620;
-  height: 440
-}
+
 
 @keyframes cycle {
   0% {
