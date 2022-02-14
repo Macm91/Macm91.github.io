@@ -60,10 +60,8 @@ body{
   .experience ul{
     display: none;
   }
-  #picIntro{
-    display: none;
-  }
-  
+  #rightIntro h1{
+    font-size: medium;
 }
 
 @media (min-width: 997px) {
@@ -87,6 +85,7 @@ body{
     border-radius: 5%;
     float:right;
   }
+
 
 
 /* header & Navigation*/
